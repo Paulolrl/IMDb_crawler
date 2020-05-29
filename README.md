@@ -1,6 +1,6 @@
 # IMDb_crawler
 
-Crawler that return list of movies given:
+Crawler that return list of movies, given:
 - list of genres (optional);
 - minimum year;
 - minimum average of imdb score and metacritic score (between 0 and 10);
