@@ -51,11 +51,11 @@ for genre in genres:
                         goodmovies.append({'title': title, 'imdb': imdbscore, 'metascore': metascore, 'year': year})
 
             titles.add(title)
-        print 'pages:', analised
+        print('pages:', analised)
         analised += 1
 
-print '-------------------------------------------------------'
-print 'movies:', len(goodmovies)
+print('-------------------------------------------------------')
+print('movies:', len(goodmovies))
 
 goodmovies.sort(key=extractmedia, reverse=True)
 
